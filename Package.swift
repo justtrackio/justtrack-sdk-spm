@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "JustTrackSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JustTrackSDK",
-            url: "https://sdk.justtrack.io/pods/JustTrackSDK/JustTrackSDK-4.5.3.zip",
-            checksum: "b5751785140487cfbe9dcef76c044bf35bec6cab0fa7747ab0694671fe15cc4c"
+            url: "https://sdk.justtrack.io/pods/JustTrackSDK/JustTrackSDK-4.5.5.zip",
+            checksum: "67b2e9013d6b86e2df283f3c31b304bef32dd29832034aae18d0c18ddef61c68"
         ),
     ]
 )
