@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JustTrackSDK",
-            url: "https://sdk.justtrack.io/pods/JustTrackSDK/JustTrackSDK-4.5.6.zip",
-            checksum: "1ab3e3f90687307ee5d5ac055dd5182736539400423d4977ad7cdc1cd9b479ea"
+            url: "https://sdk.justtrack.io/pods/JustTrackSDK/JustTrackSDK-4.6.0.zip",
+            checksum: "6cfd0c9d89becf110b6531d935fdf049a55742e32638f0c68ba1ab7023c75a23"
         ),
     ]
 )
